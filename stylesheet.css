@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body{
+    background-color: rgb(8, 26, 46);
+}
+
+.burger{
+ top: 2%;
+ left: 33%;
+ position: absolute;
+ color: aliceblue;
+ font-size:70px;
+ font-style: 0 0 550px bold;
+ cursor: pointer;
+ text-shadow:0 0 50px rgba(32, 221, 255, 0.89);
+}
+
+.shape{
+  top: 18%;
+  left: 35%;
+  border-radius: 10px;
+  border-color: white;
+  background-color: transparent;
+  border-width: 20px;
+  width: 450px;
+  height: 600px;
+  position: absolute;
+  font-size: 0.8rem;
+  box-shadow: 0 0 50px rgba(32, 221, 255, 0.89);
+}
+
+.shape:hover {
+    color: var(--hover-color);
+    box-shadow: 0 0 10px rgb(0, 217, 255),
+    0 0 20px rgba(0, 217, 255),
+    0 0 30px rgba(0, 217, 255);
+  ;
+}
+
+.chashier{
+    top: 22%;
+    left: 43.5%;
+    position: absolute;
+    color: aliceblue;
+    font-size:xx-large;
+    font-style:bold;
+}
+
+.userimage{
+    top: 33%;
+    left:45%;
+    height: 20%;
+    width: 10%;
+    position:absolute;
+    border-radius: 20%;
+} 
+
+.username input{
+    top: 60%;
+    left:40%;
+    height: 30px;
+    width: 300px;
+    position:absolute;
+    border-radius: 3%;
+}
+
+.usericon{
+    top: 60.3%;
+    left:37.6%;
+    height: 30px;
+    width: 30px;
+    position:absolute;
+}
+
+.password input{
+    top: 68%;
+    left:40%;
+    height: 30px;
+    width: 300px;
+    position:absolute;
+    border-radius: 3%;
+}
+
+.passwordicon{
+    top: 68%;
+    left:37.6%;
+    height: 30px;
+    width: 35px;
+    position:absolute;
+}
+
+.loginbtn a button{
+    color: aliceblue; 
+    background-color: rgba(27, 175, 201, 0.89);
+    font-size: larger;
+    top: 78%;
+    left:45%;
+    height: 50px;
+    width: 150px;
+    position:absolute;
+    border-radius: 10%;
+    /* box-shadow: 0 0 30px rgba(32, 221, 255, 0.89); */
+}
+
+.loginbtn :hover{
+    color: var(--hover-color);
+    box-shadow: 0 0 10px rgb(0, 217, 255),
+    0 0 20px rgba(0, 217, 255),
+    0 0 30px rgba(0, 217, 255);
+  ;
+}

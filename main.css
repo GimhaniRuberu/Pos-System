@@ -1,0 +1,440 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.burger{
+ top: 2%;
+ left: 7%;
+ position: absolute;
+ color: rgb(255, 242, 0);
+ font-size:70px;
+ font-style: 0 0 550px;
+ font-family:cursive;
+ cursor: pointer;
+ text-shadow:0 0 50px rgba(0, 0, 0, 0.89);
+}
+
+.burgericon{
+ top: 2%;
+ left: 1.5%;
+ position: absolute;
+ height: 90px;
+ width: 80px;
+}
+
+.shape{
+  top: 18%;
+  left: 3%;
+  border-radius: 20px;
+  border-color: rgb(255, 0, 0);
+  background-color: transparent;
+  border-width: 20px;
+  width: 450px;
+  height: 200px;
+  position: absolute;
+  font-size: 0.8rem;
+  box-shadow: 0 0 5px rgb(255, 0, 0),
+    0 0 10px rgb(255, 0, 0),
+    0 0 20px rgb(255, 0, 0);
+    /* 0 0 50px rgb(255, 255, 255); */
+    /* 0 0 70px rgb(255, 255, 255); */
+}
+
+.shape:hover {
+    color: var(--hover-color);
+    box-shadow: 0 0 30px rgb(255, 0, 0),
+    0 0 50px rgb(255, 0, 0);
+    /* 0 0 70px rgb(255, 0, 0);  */
+  ;
+}
+
+.cuscode input{
+    top: 21%;
+    left:4%;
+    height: 35px;
+    width: 250px;
+    position:absolute;
+    border-radius: 3%;
+}
+
+.searchbtn button{
+    color: aliceblue; 
+    background-color: rgba(218, 15, 15, 0.89);
+    font-size: larger;
+    font: 600 16px "Inter-semiBold",sans-serif;
+    top: 21.5%;
+    left:23%;
+    height: 33px;
+    width: 100px;
+    position:absolute;
+    border-radius: 10%;
+}
+
+.searchbtn :hover{
+    color: var(--hover-color);
+} 
+
+
+.Pnum input{
+    top: 28%;
+    left:4%;
+    height: 35px;
+    width: 250px;
+    position:absolute;
+    border-radius: 3%;
+}
+
+.addbtn button{
+    color: aliceblue; 
+    background-color: rgba(47, 255, 0, 0.89);
+    /* font-size: larger; */
+    font: 600 16px "Inter-semiBold",sans-serif;
+    top: 28.5%;
+    left:23%;
+    height: 33px;
+    width: 100px;
+    position:absolute;
+    border-radius: 10%;
+}
+
+.addbtn :hover{
+    color: var(--hover-color);
+}
+
+.cusname input{
+    top: 35%;
+    left:4%;
+    height: 35px;
+    width: 250px;
+    position:absolute;
+    border-radius: 3%;
+}
+
+.veiwallbtn button{
+    color: aliceblue; 
+    background-color: rgba(0, 42, 255, 0.89);
+    /* font-size: larger; */
+    font: 600 16px "Inter-semiBold",sans-serif;
+    top: 35.5%;
+    left:23%;
+    height: 33px;
+    width: 100px;
+    position:absolute;
+    border-radius: 10%;
+}
+
+.veiwallbtn :hover{
+    color: var(--hover-color);
+}
+
+.chooseing{
+    top: 12.5%;
+    left: 52%;
+    position: absolute;
+}
+
+.choose{
+    top: 13%;
+    left: 56%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size:40px;
+    font-style: 0 0 550px bold;
+    cursor: pointer;
+    text-shadow:0 0 50px rgba(0, 0, 0, 0.89); 
+}
+
+.c1{
+    top: 23%;
+    left: 38%;
+    border-radius: 10px;
+    border-color: rgb(255, 254, 254);
+    background-color: rgb(255, 153, 0);
+    width: 120px;
+    height: 100px; 
+    position: absolute;
+    background-color: rgb(255, 153, 0);
+    box-shadow: 0 0 5px rgb(255, 153, 0),
+    0 0 10px rgb(255, 191, 0);
+    /* 0 0 20px rgb(255, 191, 0); */
+    /* font-size: 0.8rem; */
+    /* box-shadow: 0 0 50px rgba(255, 255, 255, 0.89); */
+} 
+
+.burgerbtn{
+    color: aliceblue; 
+    background-color: rgba(240, 188, 18, 0.89);
+    font-size: 15px;
+    top: 5%;
+    left:29%;
+    height: 27px;
+    width: 55px;
+    position:absolute;
+    border-radius: 10%;
+}
+
+.burger1icon{
+    top: 36%;
+    left: 26%;
+    width: 60px;
+    height: 55px; 
+    position: absolute;
+}
+
+.c2{
+    top: 23%;
+    left: 48%;
+    border-radius: 10px;
+    border-color: rgb(255, 254, 254);
+    background-color: rgb(229, 35, 17);
+    width: 120px;
+    height: 100px; 
+    position: absolute;
+    background-color: rgb(250, 23, 2);
+    box-shadow: 0 0 5px rgb(244, 34, 15),
+    0 0 10px rgb(225, 34, 16);
+} 
+
+.submarinebtn{
+    color: aliceblue; 
+    background-color: rgba(255, 13, 13, 0.89);
+    font-size: 15px;
+    top: 5%;
+    left:17%;
+    height: 25px;
+    width: 80px;
+    position:absolute;
+    border-radius: 10%;
+}
+
+.submarineicon{
+    top: 27%;
+    left: 22%;
+    width: 70px;
+    height:70px; 
+    position: absolute;
+}
+
+
+.c3{
+    top: 23%;
+    left: 58%;
+    border-radius: 10px;
+    border-color: rgb(255, 254, 254);
+    background-color: rgb(214, 207, 18);
+    width: 120px;
+    height: 100px; 
+    position: absolute;
+    background-color: rgb(215, 208, 18);
+    box-shadow: 0 0 5px rgb(207, 201, 12),
+    0 0 10px rgb(233, 226, 14);
+} 
+
+.pastabtn{
+    color: aliceblue; 
+    background-color: rgba(200, 200, 50, 0.89);
+    font-size: 15px;
+    top: 5%;
+    left:25%;
+    height: 25px;
+    width: 60px;
+    position:absolute;
+    border-radius: 10%;
+}
+
+.pastaicon{
+    top: 31%;
+    left: 22%;
+    width: 70px;
+    height:60px; 
+    position: absolute;
+}
+
+.c4{
+    top: 23%;
+    left: 68%;
+    border-radius: 10px;
+    border-color: rgb(255, 254, 254);
+    background-color: rgb(151, 124, 13);
+    width: 120px;
+    height: 100px; 
+    position: absolute;
+    background-color: rgb(158, 125, 19);
+    box-shadow: 0 0 5px rgb(147, 116, 12),
+    0 0 10px rgb(162, 127, 13);
+} 
+
+.chickenbtn{
+    color: aliceblue; 
+    background-color: rgba(125, 115, 34, 0.89);
+    font-size: 15px;
+    top: 5%;
+    left:25%;
+    height: 25px;
+    width: 65px;
+    position:absolute;
+    border-radius: 10%;
+}
+
+.chickenicon{
+    top: 31%;
+    left: 22%;
+    width: 70px;
+    height:60px; 
+    position: absolute;
+}
+
+.c5{
+    top: 23%;
+    left: 78%;
+    border-radius: 10px;
+    border-color: rgb(255, 254, 254);
+    background-color: rgb(68, 151, 13);
+    width: 120px;
+    height: 100px; 
+    position: absolute;
+    background-color: rgb(61, 158, 19);
+    box-shadow: 0 0 5px rgb(21, 147, 12),
+    0 0 10px rgb(65, 162, 13);
+} 
+
+.friesbtn{
+    color: aliceblue; 
+    background-color: rgba(24, 181, 53, 0.89);
+    font-size: 15px;
+    top: 5%;
+    left:25%;
+    height: 25px;
+    width: 65px;
+    position:absolute;
+    border-radius: 10%;
+}
+
+.friesicon{
+    top: 31%;
+    left: 22%;
+    width: 70px;
+    height:60px; 
+    position: absolute;
+}
+
+.c6{
+    top: 23%;
+    left: 88%;
+    border-radius: 10px;
+    border-color: rgb(255, 254, 254);
+    background-color: rgb(13, 70, 151);
+    width: 120px;
+    height: 100px; 
+    position: absolute;
+    background-color: rgb(19, 142, 158);
+    box-shadow: 0 0 5px rgb(12, 129, 147),
+    0 0 10px rgb(13, 150, 162);
+} 
+
+.drinksbtn{
+    color: aliceblue; 
+    background-color: rgba(24, 69, 181, 0.89);
+    font-size: 15px;
+    top: 5%;
+    left:25%;
+    height: 25px;
+    width: 65px;
+    position:absolute;
+    border-radius: 10%;
+}
+
+.drinksicon{
+    top: 31%;
+    left: 22%;
+    width: 70px;
+    height:60px; 
+    position: absolute;
+}
+
+.cart{
+    top: 50%;
+    left: 3%;
+    border-radius: 20px;
+    border-color: rgb(234, 0, 255);
+    background-color: transparent;
+    border-width: 20px;
+    width: 450px;
+    height: 370px;
+    position: absolute;
+    font-size: 0.8rem;
+    box-shadow: 0 0 5px rgb(234, 0, 255),
+      0 0 10px rgb(234, 0, 255),
+      0 0 20px rgb(234, 0, 255);
+      /* 0 0 50px rgb(255, 255, 255);
+       0 0 70px rgb(255, 255, 255); */
+  } 
+
+  .cart:hover {
+    color: var(--hover-color);
+    box-shadow: 0 0 30px rgb(234, 0, 255),
+    0 0 50px rgb(234, 0, 255);
+    /* 0 0 70px rgb(255, 0, 0);  */
+  ;
+}
+
+.cart p{
+    color: aliceblue;
+    font-size: 30px;
+    top: 5%;
+    left: 30%;
+    position: absolute;
+}
+
+
+/* .usericon{
+    top: 60.3%;
+    left:37.6%;
+    height: 30px;
+    width: 30px;
+    position:absolute;
+}
+
+.password input{
+    top: 68%;
+    left:40%;
+    height: 30px;
+    width: 300px;
+    position:absolute;
+    border-radius: 3%;
+}
+
+.passwordicon{
+    top: 68%;
+    left:37.6%;
+    height: 30px;
+    width: 35px;
+    position:absolute;
+}
+
+.loginbtn{
+    color: aliceblue; 
+    background-color: rgba(27, 175, 201, 0.89);
+    font-size: larger;
+    top: 78%;
+    left:45%;
+    height: 50px;
+    width: 150px;
+    position:absolute;
+    border-radius: 10%;
+    /* box-shadow: 0 0 30px rgba(32, 221, 255, 0.89); */
+/* }
+
+.loginbtn:hover{
+    color: var(--hover-color);
+    box-shadow: 0 0 10px rgb(0, 217, 255),
+    0 0 20px rgba(0, 217, 255),
+    0 0 30px rgba(0, 217, 255);
+  ;
+} */ 
